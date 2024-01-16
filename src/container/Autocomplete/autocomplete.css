@@ -1,0 +1,132 @@
+/* .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+.chip-input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    padding: 5px;
+    position: relative;
+    border: 1px solid purple;
+    border-radius: 8px;
+}
+
+.chip-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chipwrapper {
+    max-width: 200px;
+    background-color: #9bedff;
+    color: black;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.chipwrapper.highlighted {
+    background-color: #ff6868;
+}
+
+.chipwrapper > p {
+    width: 100%;
+}
+
+.chip-name {
+    display: flex;
+    align-items: center;
+}
+
+.chip-name > img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.chip-close {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.input-wrapper {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.input-wrapper input {
+    border: none;
+    width: 100%;
+    padding: 10px ;
+}
+
+input:focus {
+    outline: none;
+    /* border:blue; */
+}
+
+.item-list {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px black;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    z-index: 1;
+}
+
+.item-list::-webkit-scrollbar {
+    display: none;
+}
+
+.item-list > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-name {
+    display: flex;
+    align-items: center;
+}
+
+.item-name > img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+p {
+    margin: 0;
+}
+
+.item-list div:hover {
+    background-color: #eee;
+}
+.background {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
